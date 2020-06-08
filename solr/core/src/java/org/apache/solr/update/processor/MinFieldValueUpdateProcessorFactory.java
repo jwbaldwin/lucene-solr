@@ -28,7 +28,7 @@ import static org.apache.solr.update.processor.FieldMutatingUpdateProcessor.SELE
 
 /**
  * An update processor that keeps only the the minimum value from any selected 
- * fields where multiple values are found.   Correct behavior requires tha all 
+ * fields where multiple values are found.   Correct behavior requires that all 
  * of the values in the SolrInputFields being mutated are mutually comparable; 
  * If this is not the case, then a SolrException will br thrown. 
  * <p>
